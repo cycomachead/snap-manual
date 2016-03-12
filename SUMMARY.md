@@ -1,6 +1,6 @@
 # Summary
 
-* [snaptest](README.md)
+* [Snap Manual](README.md)
 * [4.0](40/README.md)
   * [Sprites and Parallelism](40/sprites_and_parallelism.md)
   * [Nesting Sprites: Anchors and Parts](40/nesting_sprites_anchors_and_parts.md)
