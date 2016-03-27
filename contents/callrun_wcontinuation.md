@@ -10,7 +10,7 @@ But we can improve the efficiency of this block, in the case of a list that incl
 
 ![image](SnapManual/Image_203.png)
 
-But this is not as efﬁcient as it might seem. Consider, as an example, the list 1,2,3,0,4,5\. We ﬁnd the zero on the third recursive call (the fourth call altogether), as the ﬁrst item of the sublist 0,4,5\. What is the continuation of the report 0 block? It’s
+But this is not as efﬁcient as it might seem. Consider, as an example, the list 1,2,3,0,4,5\. We ﬁnd the zero on the third recursive call (the fourth call altogether), as the first item of the sublist 0,4,5\. What is the continuation of the report 0 block? It’s
 
 ![image](SnapManual/Image_204.png)
 

@@ -14,7 +14,7 @@ Don’t try to trace the exact sequence of steps that the computer follows in a 
 
 You can also write recursive reporters, like this block to compute the factorial function:
 
-Note the use of the report block. When a reporter block uses this block, the reporter ﬁnishes its work and reports the value given; any further blocks in the script are not evaluated. Thus, the if else block in the script above could have been just an if, with the second report block below it instead of inside it, and the result would be the same, because when the ﬁrst report is seen in the base case, that ﬁnishes the block invocation, and the
+Note the use of the report block. When a reporter block uses this block, the reporter ﬁnishes its work and reports the value given; any further blocks in the script are not evaluated. Thus, the if else block in the script above could have been just an if, with the second report block below it instead of inside it, and the result would be the same, because when the first report is seen in the base case, that ﬁnishes the block invocation, and the
 
 second report is ignored. There is also a stop block block that has a similar purpose, ending the block invocation early, for command blocks. (By contrast, the stop script block stops not only the current block invocation, but also the entire toplevel script that called it.)
 

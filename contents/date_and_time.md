@@ -28,7 +28,7 @@ for Europeans.
 
     ![image](SnapManual/Image_179.png)
 
-    That’s a trick question; the move block is run four times, and it has a different continuation each time. The ﬁrst time, its continuation is
+    That’s a trick question; the move block is run four times, and it has a different continuation each time. The first time, its continuation is
 
     ![image](SnapManual/Image_180.png)
 
@@ -46,7 +46,7 @@ for Europeans.
 
     ![image](SnapManual/Image_183.png)
 
-    then the continuation of the ﬁrst use of move 100 steps is
+    then the continuation of the first use of move 100 steps is
 
     ![image](SnapManual/Image_184.png)
 

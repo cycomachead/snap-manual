@@ -20,7 +20,7 @@ to a friend over the phone. If you say “factorial of three times factorial of 
 
 ![image](SnapManual/Image_194.png)
 
-Wouldn’t it be better to say, “Add two and two, take the factorial of that, add ﬁve to that, multiply three by that, and take the factorial of the result”? We can do a similar reordering of an expression if we ﬁrst deﬁne versions of all the reporters that take their continuation as an explicit input. In the following picture, notice that the new blocks are _commands_, not reporters.
+Wouldn’t it be better to say, “Add two and two, take the factorial of that, add ﬁve to that, multiply three by that, and take the factorial of the result”? We can do a similar reordering of an expression if we first deﬁne versions of all the reporters that take their continuation as an explicit input. In the following picture, notice that the new blocks are _commands_, not reporters.
 
 ![image](SnapManual/Image_195.png)
 

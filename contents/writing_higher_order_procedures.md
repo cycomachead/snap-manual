@@ -50,4 +50,4 @@ Note that the halo you see while dragging onto the arrowheads is red instead of 
 
 ![image](SnapManual/Image_142.png)
 
-The user of this block calls it with any number of _individual numbers_ as inputs. But inside the definition of the block, all of those numbers form _a list_ that has a single input name, numbers. This recursive definition ﬁrst checks to make sure there are any inputs at all. If so, it processes the ﬁrst input (item 1 of the list), then it wants to make a recursive call with all but the ﬁrst number. But sizes doesn’t take a list as input; it takes numbers as inputs! So this would be wrong:
+The user of this block calls it with any number of _individual numbers_ as inputs. But inside the definition of the block, all of those numbers form _a list_ that has a single input name, numbers. This recursive definition first checks to make sure there are any inputs at all. If so, it processes the first input (item 1 of the list), then it wants to make a recursive call with all but the first number. But sizes doesn’t take a list as input; it takes numbers as inputs! So this would be wrong:

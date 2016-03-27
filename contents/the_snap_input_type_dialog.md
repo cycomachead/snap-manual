@@ -16,21 +16,21 @@ The arrangement of the input types is systematic. As the pictures on this and th
 
 ![image](SnapManual/Image_104.jpg)
 
-The second row of input types contains the ones found in Scratch: Number, Any, and Boolean. (The reason these are in the second row rather than the ﬁrst will become clear when we look at the column arrangement.) The ﬁrst row contains the new Snap! types other than procedures: Object, Text, and List. The last two rows are the types related to procedures, discussed more fully below.
+The second row of input types contains the ones found in Scratch: Number, Any, and Boolean. (The reason these are in the second row rather than the first will become clear when we look at the column arrangement.) The first row contains the new Snap! types other than procedures: Object, Text, and List. The last two rows are the types related to procedures, discussed more fully below.
 
-The List type is used for ﬁrst class lists, discussed in Section IV above. The red rectangles inside the input slot are meant to resemble the appearance of lists as Snap! displays them on the stage: each element in a red rectangle.
+The List type is used for first class lists, discussed in Section IV above. The red rectangles inside the input slot are meant to resemble the appearance of lists as Snap! displays them on the stage: each element in a red rectangle.
 
-The Object type is reserved for ﬁrst class sprites, coming in Snap! 4.1.
+The Object type is reserved for first class sprites, coming in Snap! 4.1.
 
 The Text type is really just a variant form of the Any type, using a shape that suggests a text input.1
 
 Procedure Types
 
-Although the procedure types are discussed more fully later, they are the key to understanding the column arrangement in the input types. Like Scratch, Snap! has three block shapes: jigsaw-piece for command blocks, oval for reporters, and hexagonal for predicates. (A _predicate_ is a reporter that always reports true or false.) In Snap! these blocks are ﬁrst class data; an input to a block can be of Command type, Reporter type, or Predicate type. Each of these types is directly below the type of value that that kind of block reports, except for Commands, which don’t report a value at all. Thus, oval Reporters are related to the Any type, while hexagonal Predicates are related to the Boolean (true or false) type.
+Although the procedure types are discussed more fully later, they are the key to understanding the column arrangement in the input types. Like Scratch, Snap! has three block shapes: jigsaw-piece for command blocks, oval for reporters, and hexagonal for predicates. (A _predicate_ is a reporter that always reports true or false.) In Snap! these blocks are first class data; an input to a block can be of Command type, Reporter type, or Predicate type. Each of these types is directly below the type of value that that kind of block reports, except for Commands, which don’t report a value at all. Thus, oval Reporters are related to the Any type, while hexagonal Predicates are related to the Boolean (true or false) type.
 
 ![image](SnapManual/Image_105.png)
 
-1 In Scratch, every block that takes a Text-type input has a default value that makes the rectangles for text wider than tall. The blocks that aren’t speciﬁcally about text either are of Number type or have no default value, so those rectangles are taller than wide. At ﬁrst we thought that Text was a separate type that always had a wide input slot; it turns out that this isn’t true in Scratch (delete the default text and the rectangle narrows), but we thought it a good idea anyway, so we allow Text-shaped boxes even for empty input slots. (This is why Text comes just above Any in the input type selection box.)
+1 In Scratch, every block that takes a Text-type input has a default value that makes the rectangles for text wider than tall. The blocks that aren’t speciﬁcally about text either are of Number type or have no default value, so those rectangles are taller than wide. At first we thought that Text was a separate type that always had a wide input slot; it turns out that this isn’t true in Scratch (delete the default text and the rectangle narrows), but we thought it a good idea anyway, so we allow Text-shaped boxes even for empty input slots. (This is why Text comes just above Any in the input type selection box.)
 
 The unevaluated procedure types in the fourth row are explained in Section VI.E below. In one handwavy sentence, they combine the _meaning_ of the procedure types with the _appearance_ of the reported value types two rows higher. (Of course, this isn’t quite right for the C-shaped command input type, since commands don’t report values. But you’ll see later that it’s true in spirit.)
 

@@ -158,7 +158,7 @@ Snap_!_ Reference Manual
 
 Version 4.0
 
-Snap! (formerly BYOB) is an extended reimplementation of Scratch (http://scratch.mit.edu) that allows you to Build Your Own Blocks. It also features ﬁrst class lists, ﬁrst class procedures, and continuations. These added capabilities make it suitable for a serious introduction to computer science for high school or college students.
+Snap! (formerly BYOB) is an extended reimplementation of Scratch (http://scratch.mit.edu) that allows you to Build Your Own Blocks. It also features first class lists, first class procedures, and continuations. These added capabilities make it suitable for a serious introduction to computer science for high school or college students.
 
 To run Snap!, open a browser window and connect to either [http://snap.berkeley.edu/run](http://snap.berkeley.edu/run) [to start with a minimal set of blocks or](http://snap.berkeley.edu/init) [http://snap.berkeley.edu/init](http://snap.berkeley.edu/init) to load a small set of additional blocks (a little slower startup, but recommended for convenience and assumed in this manual).
 

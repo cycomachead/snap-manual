@@ -8,7 +8,7 @@ This is simpliﬁed because it assumes, without checking, that the ending value 
 
 ![image](SnapManual/Image_125.png)
 
-The important part of this script is the run block near the end. This is a Snap! built-in command block that takes a Command-type value (a script) as its input, and carries out its instructions. (In this example, the value of the input is the script that the user puts in the C-slot of the for block.) There is a similar call reporter block for invoking a Reporter or Predicate block. The call and run blocks are at the heart of Snap!’s ﬁrst class procedure feature; they allow scripts and blocks to be used as data — in this example, as an input to a block — and eventually carried out under control of the user’s program.
+The important part of this script is the run block near the end. This is a Snap! built-in command block that takes a Command-type value (a script) as its input, and carries out its instructions. (In this example, the value of the input is the script that the user puts in the C-slot of the for block.) There is a similar call reporter block for invoking a Reporter or Predicate block. The call and run blocks are at the heart of Snap!’s first class procedure feature; they allow scripts and blocks to be used as data — in this example, as an input to a block — and eventually carried out under control of the user’s program.
 
 ![image](SnapManual/Image_126.png)
 

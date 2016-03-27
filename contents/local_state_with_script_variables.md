@@ -2,7 +2,7 @@
 
 ![image](SnapManual/Image_154.png)
 
-This script implements an object _class_, a type of object, namely the counter class. In this ﬁrst simplified version there is only one method, so no explicit message passing is necessary. When the make a counter block is called, it reports a procedure, the ringed script inside its body. That procedure implements a specific counter object, an _instance_ of the counter class. When invoked, a counter instance increases and reports its count variable. Each counter has its own local count:
+This script implements an object _class_, a type of object, namely the counter class. In this first simplified version there is only one method, so no explicit message passing is necessary. When the make a counter block is called, it reports a procedure, the ringed script inside its body. That procedure implements a specific counter object, an _instance_ of the counter class. When invoked, a counter instance increases and reports its count variable. Each counter has its own local count:
 
 ![image](SnapManual/Image_155.png)
 
