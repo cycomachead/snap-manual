@@ -1,8 +1,8 @@
 ## Cloud Storage {#cloud-storage}
 
-The other possibility is to save your project “in the cloud,” at the Snap! web site. In order to do this, you need an account with us. Click on the Cloud button ( ![image](SnapManual/Image_059.png)) in the Tool Bar. Choose the “Signup…” option. This will show you a window that looks like this:
+The other possibility is to save your project “in the cloud,” at the Snap! web site. In order to do this, you need an account with us. Click on the Cloud button ( ![image](images/Image_059.png)) in the Tool Bar. Choose the “Signup…” option. This will show you a window that looks like this:
 
-![image](SnapManual/Image_060.png)
+![image](images/Image_060.png)
 
 You must choose a user name that will identify you on the web site, such as Jens or bh. If you’re a Scratch user, you can use your Scratch name for Snap! too. If you’re a kid, don’t pick a user name that includes your family name, but first names or initials are okay. Don’t pick something you’d be embarrassed to have other users (or your parents) see! If the name you want is already taken, you’ll have to choose another one.
 
@@ -20,7 +20,7 @@ But the lawyers make us say this.)
 
 Once you’ve created your account, you can log into it using the “Login…” option from the Cloud menu:
 
-![image](SnapManual/Image_061.png)
+![image](images/Image_061.png)
 
 Use the user name and password that you set up earlier. If you check the “Stay signed in” box, then you will be logged in automatically the next time you run Snap! from the same browser on the same computer. Check the box if you’re using your own computer and you don’t share it with siblings. Don’t check the box if you’re using a public computer at the library, at school, etc.
 

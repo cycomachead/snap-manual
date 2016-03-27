@@ -6,7 +6,7 @@ Sprite Appearance and Behavior Controls
 
 At the top of the scripting area are a picture of the sprite and some controls for it:
 
-![image](SnapManual/Image_252.jpg)
+![image](images/Image_252.jpg)
 
 Note that the sprite picture reflects its rotation, if any. There are three things that can be controlled here:
 
@@ -20,7 +20,7 @@ Scripting Area Tabs
 
 Just below the sprite controls are three _tabs_ that determine what is shown in the scripting area:
 
-![image](SnapManual/Image_253.png)
+![image](images/Image_253.png)
 
 Scripts and Blocks Within Scripts
 
@@ -32,13 +32,13 @@ If a script is shown with a _red_ halo, that means that an error was caught in t
 
 Control-click/right-clicking a primitive block within a script shows a menu like this one:
 
-![image](SnapManual/Image_254.png)
+![image](images/Image_254.png)
 
 The help… option shows the help screen for the block, just as in the palette. The other options appear only when a block is right-clicked/control-clicked in the scripting area.
 
 Not every primitive block has a relabel… option. When present, it allows the block to be replaced by another, similar block, keeping the input expressions in place. For example, here’s what happens when you choose relabel… for an arithmetic operator:
 
-![image](SnapManual/Image_255.jpg)
+![image](images/Image_255.jpg)
 
 Note that the inputs to the existing – block are displayed in the menu of alternatives also. Click a block in the menu to choose it, or click outside the menu to keep the original block.
 
@@ -54,7 +54,7 @@ If the script does _not_ start with a hat block, or you clicked on a reporter, t
 
 Clicking a _custom_ block in a script gives a similar but different menu:
 
-![image](SnapManual/Image_256.png)
+![image](images/Image_256.png)
 
 There is no relabel… option for custom blocks. The two options at the bottom, for custom blocks only, are the same as in the palette.
 
@@ -62,29 +62,29 @@ Scripting Area Background Context Menu
 
 Control-click/shift-click on the grey striped background of the scripting area gives this menu:
 
-![image](SnapManual/Image_257.png)
+![image](images/Image_257.png)
 
 The clean up option rearranges the position of scripts so that they are in a single column, with the same left margin, and with uniform spacing between scripts. This is a good idea if you can’t read your own project!
 
 The add comment option puts a comment box like the picture below in the scripting area. It’s attached to the mouse, as with duplicating scripts, so you position the mouse where you want the comment and click to release it. You can then edit the text in the comment as desired.
 
-![image](SnapManual/Image_258.png)
+![image](images/Image_258.png)
 
 You can drag the bottom right corner of the comment box to resize it. Clicking the arrowhead at the top left changes the box to a single-line compact form, as below, so that you can have a number of collapsed comments in the scripting area and just expand one of them when you want to read it in full.
 
-![image](SnapManual/Image_259.png)
+![image](images/Image_259.png)
 
 If you drag a comment over a block in a script, the comment will be attached to the block with a yellow line:
 
-![image](SnapManual/Image_260.jpg)
+![image](images/Image_260.jpg)
 
 Comments have their own context menu, with obvious meanings:
 
-![image](SnapManual/Image_261.png)
+![image](images/Image_261.png)
 
 Back to the options in the menu for the background of the scripting area:
 
-![image](SnapManual/Image_262.png)
+![image](images/Image_262.png)
 
 The undrop option is a sort of “undo” feature for the common case of dropping a block somewhere other than where you meant it to go. It reattaches the dropped block or script to the mouse, like duplicating a block, and restores the former contents of the slot into which you dropped it. You can then reposition the mouse to put the block where you meant it to go.
 
@@ -96,25 +96,25 @@ Controls in the Costumes Tab
 
 If you click on the word “Costumes” under the sprite controls, you’ll see something like this:
 
-![image](SnapManual/Image_263.jpg)
+![image](images/Image_263.jpg)
 
-The Turtle costume is always present in every sprite; it is costume number 0\. Other costumes can be painted within Snap! or imported from files or other browser tabs if your browser supports that. Clicking on a costume selects it; that is, the sprite will look like the selected costume. Clicking on the paint brush icon ![image](SnapManual/Image_264.png)opens the
+The Turtle costume is always present in every sprite; it is costume number 0\. Other costumes can be painted within Snap! or imported from files or other browser tabs if your browser supports that. Clicking on a costume selects it; that is, the sprite will look like the selected costume. Clicking on the paint brush icon ![image](images/Image_264.png)opens the
 
 Paint Editor, in which you can create a new costume.
 
 Control-clicking/right-clicking on the turtle picture gives this menu:
 
-![image](SnapManual/Image_265.png)
+![image](images/Image_265.png)
 
 In this menu, you choose the turtle’s _rotation point,_ which is also the point from which the turtle draws lines. The two pictures below show what the stage looks like after drawing a square in each mode; tip (otherwise known as “Jens mode”) is on the left, middle (“Brian mode”) on the right:
 
-![image](SnapManual/Image_266.gif) ![image](SnapManual/Image_267.gif)
+![image](images/Image_266.gif) ![image](images/Image_267.gif)
 
 As you see, “tip” means the front tip of the arrowhead; “middle” is not the middle of the shaded region, but actually the middle of the four vertices, the concave one. (If the shape were a simple isosceles triangle instead of a fancier arrowhead, it would mean the midpoint of the back edge.) The advantage of tip mode is that the sprite is less likely to obscure the drawing. The advantage of middle mode is that the rotation point of a sprite is rarely at a tip, and students are perhaps less likely to be confused about just what will happen if you ask the turtle to turn 90 degrees from the position shown. (It’s also the traditional rotation point of the Logo turtle, which originated this style of drawing.)
 
 Costumes other than the turtle have a different context menu:
 
-![image](SnapManual/Image_268.png)
+![image](images/Image_268.png)
 
 The edit option opens the Paint Editor on this costume. The rename option opens a dialog box in which you can rename the costume. (A costume’s initial name comes from the file from which it was imported, if any, or is something like costume5.) Duplicate makes a copy of the costume, in the same sprite. (Presumably you’d do that because you intend to edit one of the copies.) Delete is obvious. The export option opens a new browser tab with a picture of the costume. You can then save it to a file, or select a different sprite in the Snap! tab, return to the picture tab, and drag the costume onto the Snap! tab to copy the costume to another sprite.
 
@@ -126,7 +126,7 @@ The Paint Editor
 
 Here is a picture of a Paint Editor window:
 
-![image](SnapManual/Image_269.png)
+![image](images/Image_269.png)
 
 If you’ve used any painting program, most of this will be familiar to you. Currently only bitmap costumes (jpg, png, etc.) can be edited, not vector costumes (svg, etc.). Unlike the case of the Block Editor, only one Paint Editor window can be open at a time.
 

@@ -2,17 +2,17 @@
 
 The primitive if else block has two C-shaped command slots and chooses one or the other depending on a Boolean test. Because Scratch doesn’t emphasize functional programming, it lacks a corresponding reporter block to choose between two expressions. We could write one in Snap!:
 
-![image](SnapManual/Image_150.png)
+![image](images/Image_150.png)
 
 Our block works for these simple examples, but if we try to use it in writing a recursive operator, it’ll fail:
 
-![image](SnapManual/Image_151.png)
+![image](images/Image_151.png)
 
 The problem is that when any block is called, all of its inputs are computed (evaluated) before the block itself runs. The block itself only knows the values of its inputs, not what expressions were used to compute them. In particular, all of the inputs to our if then else block are evaluated first thing. That means that even in the base case, factorial will try to call itself recursively, causing an inﬁnite loop. We need our if then else block to be able to select only one of the two alternatives to be evaluated.
 
 We have a mechanism to allow that: declare the then and else inputs to be of type Reporter rather than type Any. Then, when calling the block, those inputs will be enclosed in a ring so that the expressions themselves, rather than their values, become the inputs:
 
-![image](SnapManual/Image_152.png) ![image](SnapManual/Image_153.png)
+![image](images/Image_152.png) ![image](images/Image_153.png)
 
 In this version, the program works, with no inﬁnite loop. But we’ve paid a heavy price: this reporter-if is no longer as intuitively obvious as the Scratch command-if. You have to know about procedures as data, about rings, and about a trick to get a constant value in a ringed slot. (The id block implements the identity function, which reports its input. We need it because rings only take reporters as input, not numbers.) What we’d like is a reporter-if that _behaves_ like this one, delaying the evaluation of its inputs, but _looks_ like our first version, which was easy to use except that it didn’t work.
 

@@ -4,11 +4,11 @@ There are two different ways to save a project (or a media file such as a costum
 
 Localstore
 
-![image](SnapManual/Image_057.gif)
+![image](images/Image_057.gif)
 
 Find the File icon () ) in the Tool Bar. In the menu that appears when you click it, choose the option “Save as…” You’ll then see a window like this:
 
-![image](SnapManual/Image_058.png)
+![image](images/Image_058.png)
 
 The “Browser” option is selected, which means that your project will be saved in a special file that can be read only on the same computer, by the same browser, connected to the same (Snap!) web page. You won’t see it in a listing of your files outside of Snap!. This is how Javascript protects you against malware in saved projects.
 

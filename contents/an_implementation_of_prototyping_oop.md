@@ -6,13 +6,13 @@ Because we want to be able to create and delete properties dynamically, we won�
 
 an _association list:_ a list of two-item lists, in which each of the latter contains a _key_ and a corresponding _value._ We provide a lookup procedure to locate the key-value pair corresponding to a given key in a given table.
 
-![image](SnapManual/Image_161.png) ![image](SnapManual/Image_162.png)
+![image](images/Image_161.png) ![image](images/Image_162.png)
 
-![image](SnapManual/Image_163.png)
+![image](images/Image_163.png)
 
 There are also commands to insert and delete entries:
 
-![image](SnapManual/Image_164.png) ![image](SnapManual/Image_165.png)
+![image](images/Image_164.png) ![image](images/Image_165.png)
 
 As in the class/instance version, an object is represented as a dispatch procedure that takes a message as its input and reports the corresponding method. When an object gets a message, it will first look for that keyword in its methods table. If it’s found, the corresponding value is the method we want. If not, the object looks in its data table. If a value is found there, what the object returns is _not_ that value, but rather a reporter method that, when called, will report the value. This means that what an object returns is _always_ a method.
 
@@ -22,15 +22,15 @@ Messages can take any number of inputs, as in the class/instance system, but in 
 
 The clone of block below takes an object as its input and makes a child object. It should be considered as an internal part of the implementation; the preferred way to make a child of an object is to send that object a clone message.
 
-![image](SnapManual/Image_166.png)
+![image](images/Image_166.png)
 
 Every object is created with predeﬁned methods for set, method, delete-var, delete-method, and clone. It has one predeﬁned variable, parent. Objects without a parent are created by calling new object:
 
-![image](SnapManual/Image_167.png)
+![image](images/Image_167.png)
 
 As before, we provide procedures to call an object’s dispatch procedure and then call the method. But in this version, we provide the desired object as the first method input. We provide one procedure for Command methods and one for Reporter methods:
 
-![image](SnapManual/Image_168.png) ![image](SnapManual/Image_169.png)
+![image](images/Image_168.png) ![image](images/Image_169.png)
 
 (Remember that the “Input list:” variant of the run and call blocks is made by dragging the input expression over the arrowheads rather than over the input slot.)
 
@@ -38,12 +38,12 @@ The script below demonstrates how this prototyping system can be used to make co
 
 [1 1] [2 2] [3 3] [4 4] (1 5) (2 6) (3 7) [5 8] [6 9] [7 10] [8 11]
 
-![image](SnapManual/Image_170.png)
+![image](images/Image_170.png)
 
 *   The Outside World
 
     The facilities discussed so far are fine for projects that take place entirely on your computer’s screen. But you may want to write programs that interact with physical devices (sensors or robots) or with the World Wide Web. For these purposes Snap! provides a single primitive block:
 
-    ![image](SnapManual/Image_171.png)
+    ![image](images/Image_171.png)
 
     This might not seem like enough, but in fact it can be used to build the desired capabilities.

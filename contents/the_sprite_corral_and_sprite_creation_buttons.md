@@ -1,10 +1,10 @@
 ## The Sprite Corral and Sprite Creation Buttons {#the-sprite-corral-and-sprite-creation-buttons}
 
-Between the stage and the sprite corral at the bottom right of the Snap! window is a dark grey bar containing two buttons. These are used to create a new sprite. The first button ![image](SnapManual/Image_272.png)makes a sprite with just the turtle costume; the second button ![image](SnapManual/Image_273.png)makes a sprite and opens the Paint Editor so that you can make your own costume for it. (Of course you could click the first button and then click the paint button in its costumes tab; this paint button is a shortcut for all that.)
+Between the stage and the sprite corral at the bottom right of the Snap! window is a dark grey bar containing two buttons. These are used to create a new sprite. The first button ![image](images/Image_272.png)makes a sprite with just the turtle costume; the second button ![image](images/Image_273.png)makes a sprite and opens the Paint Editor so that you can make your own costume for it. (Of course you could click the first button and then click the paint button in its costumes tab; this paint button is a shortcut for all that.)
 
 In the sprite corral, you click on a sprite’s “thumbnail” picture to select that sprite (to make it the one whose scripts, costumes, etc. are shown in the scripting area). You can drag sprite thumbnails (but not the stage one) to reorder them; this has no special effect on your project, but lets you put related ones next to each other, for example. You can right-click/control-click a sprite’s thumbnail to get this context menu:
 
-![image](SnapManual/Image_274.png)
+![image](images/Image_274.png)
 
 The show option makes the sprite visible, if it was hidden, and also brings it onto the stage, if it had moved past the stage boundary. The other three options are the same as in the context menu of the actual sprite on the stage, discussed above.
 
@@ -12,13 +12,13 @@ The context menu for the stage thumbnail has only one option, pic…, which take
 
 Index
 
-![image](SnapManual/Image_275.png)
+![image](images/Image_275.png)
 
 #
 
 # variable · 60
 
-![image](SnapManual/Image_276.png)
+![image](images/Image_276.png)
 
 A
 
@@ -44,7 +44,7 @@ arrow, upward-pointing · 30 arrowheads · 22, 30
 
 ask block · 42 association list · 44 associative function · 26
 
-![image](SnapManual/Image_277.png)
+![image](images/Image_277.png)
 
 B
 
@@ -70,7 +70,7 @@ Browser button · 58
 
 Build Your Own Blocks · 17
 
-![image](SnapManual/Image_278.png)
+![image](images/Image_278.png)
 
 C
 
@@ -112,7 +112,7 @@ current date or time · 48 current sprite · 66
 
 custom block in a script · 68
 
-![image](SnapManual/Image_279.png)
+![image](images/Image_279.png)
 
 D
 
@@ -130,7 +130,7 @@ dialog, input name · 19 Dinsmore, Nathan · 3
 
 dispatch procedure · 40, 42, 44 Download source option · 58 draggable checkbox · 66 duplicate option · 67, 71, 72 dynamic array · 25
 
-![image](SnapManual/Image_280.png)
+![image](images/Image_280.png)
 
 E
 
@@ -144,7 +144,7 @@ Examples button · 59 Execute on slider change · 63 Export blocks… option · 
 
 eyedropper tool · 71, 72
 
-![image](SnapManual/Image_281.png)
+![image](images/Image_281.png)
 
 F
 
@@ -156,13 +156,13 @@ Flat design · 63 floodfill tool, · 71 for block · 11, 31
 
 function, associative · 26 functional programming style · 24
 
-![image](SnapManual/Image_282.png)
+![image](images/Image_282.png)
 
 G
 
 global variable · 13 green flag · 5, 64 green halo · 67 grey dot · 7
 
-![image](SnapManual/Image_283.png)
+![image](images/Image_283.png)
 
 H
 
@@ -180,7 +180,7 @@ hide primitives option · 66 higher order function · 37 higher order procedure 
 
 http:// block · 47 Hudson, Connor · 3
 
-![image](SnapManual/Image_284.png)
+![image](images/Image_284.png)
 
 I
 
@@ -208,7 +208,7 @@ Input sliders · 62 input-type shapes · 27 _instance_ · 41
 
 interaction · 13 internal variable · 30 item 1 of block · 25 iteration library · 60
 
-![image](SnapManual/Image_285.png)
+![image](images/Image_285.png)
 
 J
 
@@ -216,13 +216,13 @@ jigsaw-piece blocks · 17, 28
 
 jukebox · 7
 
-![image](SnapManual/Image_286.png)
+![image](images/Image_286.png)
 
 K
 
 Kay, Alan · 3 keep block · 25 key-value pair · 44
 
-![image](SnapManual/Image_287.png)
+![image](images/Image_287.png)
 
 L
 
@@ -240,7 +240,7 @@ Logout · 61
 
 Long form input dialog · 62 long input name dialog · 27
 
-![image](SnapManual/Image_288.png)
+![image](images/Image_288.png)
 
 M
 
@@ -268,7 +268,7 @@ MIT Artificial Intelligence Lab · 3 MIT Media Lab · 3
 
 Morphic · 3 Motyashov, Ivan · 3 Multiple inputs · 30
 
-![image](SnapManual/Image_289.png)
+![image](images/Image_289.png)
 
 N
 
@@ -276,7 +276,7 @@ nested calls · 37 Nesting Sprites · 8 New option · 58
 
 new sprite button · 6 nonlocal exit · 55 Number type · 28
 
-![image](SnapManual/Image_290.png)
+![image](images/Image_290.png)
 
 O
 
@@ -288,7 +288,7 @@ Open… option · 58 orange oval · 11 outlined ellipse tool · 71
 
 outlined rectangle tool · 71 oval blocks · 17, 28
 
-![image](SnapManual/Image_291.png)
+![image](images/Image_291.png)
 
 P
 
@@ -314,7 +314,7 @@ project control buttons · 64 Project notes option · 58 prototype · 18
 
 prototyping · 43 pulldown inputs · 29
 
-![image](SnapManual/Image_292.png)
+![image](images/Image_292.png)
 
 R
 
@@ -338,7 +338,7 @@ run · 35
 
 run w/continuation · 55
 
-![image](SnapManual/Image_293.png)
+![image](images/Image_293.png)
 
 S
 
@@ -398,7 +398,7 @@ Structure and Interpretation of Computer Programs · 3 Sussman, Gerald J. · 3
 
 Sussman, Julie · 3 symbols in title text · 31
 
-![image](SnapManual/Image_294.png)
+![image](images/Image_294.png)
 
 T
 
@@ -420,7 +420,7 @@ translation · 62 Turbo mode · 63 Turtle costume · 70
 
 turtle’s rotation point · 70
 
-![image](SnapManual/Image_295.png)
+![image](images/Image_295.png)
 
 U
 
@@ -436,7 +436,7 @@ upvar · 31
 
 upward-pointing arrow · 30 user interface elements · 57
 
-![image](SnapManual/Image_296.png)
+![image](images/Image_296.png)
 
 V
 
@@ -444,7 +444,7 @@ variable · 11 variable watcher · 13
 
 variable-input slot · 35 variadic library · 61
 
-![image](SnapManual/Image_297.png)
+![image](images/Image_297.png)
 
 W
 
@@ -454,19 +454,19 @@ watcher · 13 window layout · 4 with inputs · 33
 
 word and sentence library · 61 World Wide Web · 47 writeable pulldown inputs · 29
 
-![image](SnapManual/Image_298.png)
+![image](images/Image_298.png)
 
 X
 
 X position · 9 Xerox PARC · 3
 
-![image](SnapManual/Image_299.png)
+![image](images/Image_299.png)
 
 Y
 
 Y position · 9 Yuan, Yuan · 3
 
-![image](SnapManual/Image_300.png)
+![image](images/Image_300.png)
 
 Z
 

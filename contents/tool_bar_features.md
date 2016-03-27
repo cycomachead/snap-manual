@@ -6,7 +6,7 @@ The Snap! Logo Menu
 
 The Snap! logo at the left end of the tool bar is clickable. It shows a menu of options about Snap! itself:
 
-![image](SnapManual/Image_219.png)
+![image](images/Image_219.png)
 
 The About option displays information about Snap! itself, including version numbers for the source modules, the implementors, and the license (AGPL: you can do anything with it except create proprietary versions, basically).
 
@@ -18,9 +18,9 @@ The Download source option downloads, to your browser’s usual download directo
 
 The File Menu
 
-The file icon ![image](SnapManual/Image_220.gif)shows a menu mostly about saving and loading projects:
+The file icon ![image](images/Image_220.gif)shows a menu mostly about saving and loading projects:
 
-![image](SnapManual/Image_221.png)
+![image](images/Image_221.png)
 
 The Project notes option opens a window in which you can type notes about the project: How to use it, what it does, whose project you modified to create it, if any, what other sources of ideas you used, or any other information about the project. This text is saved with the project, and is useful if you share it with other users.
 
@@ -28,7 +28,7 @@ The New option starts a new, empty project. Any project you were working on befo
 
 The Open… option shows a project open dialog box in which you can choose a project to open:
 
-![image](SnapManual/Image_222.png)
+![image](images/Image_222.png)
 
 In this dialog, the three large buttons at the left select a source of projects: Cloud means your Snap!account’s cloud storage; Browser means your browser’s localstore (data accessible only in that browser, on that computer,
 
@@ -40,7 +40,7 @@ The Save menu option saves the project to the same source and same name that was
 
 The Save as… menu option opens a dialog box in which you can specify where to save the project:
 
-![image](SnapManual/Image_223.png)
+![image](images/Image_223.png)
 
 This is much like the Open dialog, except for the horizontal text box at the top, into which you type a name for the project. You can also share, unshare, and delete projects from here. If you are logged in, the dialog starts with Cloud selected; if not, Browser will be selected.
 
@@ -54,11 +54,11 @@ The Import tools option imports a library of useful tool blocks that you should 
 
 The Libraries… option presents a menu of useful, optional block libraries:
 
-![image](SnapManual/Image_224.png)
+![image](images/Image_224.png)
 
 The libraries and their contents may change, but as of this writing the iteration library has these blocks:
 
-![image](SnapManual/Image_225.jpg)
+![image](images/Image_225.jpg)
 
 The cascade blocks take an initial value and call a function repeatedly on that value,
 
@@ -70,7 +70,7 @@ The first three repeat blocks are variants of the primitive repeat until block, 
 
 The list library has these blocks:
 
-![image](SnapManual/Image_226.jpg)
+![image](images/Image_226.jpg)
 
 The append block takes any number of list inputs and reports a list of all the items of all the input lists. Reverse reports a list with the items of the input list in reverse order. Remove duplicates from reports a list in which no two items are equal. The sort block takes a list and a two-input comparison predicate, such as
 
@@ -82,7 +82,7 @@ must take as many inputs as there are lists; it will be called with all the firs
 
 The stream library has these blocks:
 
-![image](SnapManual/Image_227.jpg)
+![image](images/Image_227.jpg)
 
 _Streams_ are a special kind of list whose items are not computed until they are needed. This makes certain computations more efficient, and also allows the creation of lists with infinitely many items, such as a list of all the positive integers. The first five blocks are stream versions of the list blocks in front of, item 1 of, all but first of, map, and keep. Show stream takes a stream and a number as inputs, and reports an ordinary list of the first _n_ items of the stream.
 
@@ -90,25 +90,25 @@ Finally, sieve is an example block that takes as input the stream of integers st
 
 The variadic library has these blocks:
 
-![image](SnapManual/Image_228.jpg)
+![image](images/Image_228.jpg)
 
 These are versions of the associative operators +. ×, and, and or that take any number of inputs instead of exactly two inputs. As with any variadic input, you can also drop a list of values onto the arrowheads instead of providing the inputs one at a time.
 
 The word and sentence library has these blocks:
 
-![image](SnapManual/Image_229.jpg)
+![image](images/Image_229.jpg)
 
 These blocks make it more convenient to think of a text string either as a _word_ made of letters or as a _sentence_ made of words, rather than of individual characters. Each word of a sentence is a string of characters not including a space. That is, the sentence-related blocks split the string up at space characters. Any number of consecutive spaces counts as a single separator. The names should be self-explanatory except for the last block, which takes a text string as input and reports a list of one-character-long strings.
 
-**The Cloud Menu** The cloud icon ![image](SnapManual/Image_230.png)see this menu:
+**The Cloud Menu** The cloud icon ![image](images/Image_230.png)see this menu:
 
 shows a menu of options relating to your Snap! cloud account. If you are not logged in, you
 
-![image](SnapManual/Image_231.png)
+![image](images/Image_231.png)
 
 Choose Login… if you have a Snap!account and remember your password. Choose Signup… if you don’t have an account. Choose Reset Password… if you’ve forgotten your password or just want to change it. You will then get an email, at the address you gave when you created your account, with a new temporary password.
 
-![image](SnapManual/Image_232.png)
+![image](images/Image_232.png)
 
 Use that password to log in, then you can choose your own password, as shown below. If you are already logged in, you’ll see this menu:
 
@@ -116,7 +116,7 @@ Use that password to log in, then you can choose your own password, as shown bel
 
 The Settings Menu
 
-![image](SnapManual/Image_233.png)
+![image](images/Image_233.png)
 
 The settings icon
 
@@ -124,7 +124,7 @@ shows a menu of Snap!options, either for the current project or for you permanen
 
 depending on the option:
 
-![image](SnapManual/Image_234.png)
+![image](images/Image_234.png)
 
 The Language… option lets you see the Snap! user interface (blocks and messages) in a language other than English. (Note: Translations have been provided by Snap! users. If your native language is missing, send us an email!)
 
@@ -136,7 +136,7 @@ The remaining options let you turn various features on and off. Long form input 
 
 ### Input sliders provides an alternate way to put values in numeric input slots; if you click in such a slot, a slider appears that you can control with the mouse: {#input-sliders-provides-an-alternate-way-to-put-values-in-numeric-input-slots-if-you-click-in-such-a-slot-a-slider-appears-that-you-can-control-with-the-mouse}
 
-![image](SnapManual/Image_235.jpg)
+![image](images/Image_235.jpg)
 
 The range of the slider will be from 25 less than the input’s current value to 25 more than the current value. If you want to make a bigger change than that, you can slide the slider all the way to either end, then click on the input slot again, getting a new slider with a new center point. But you won’t want to use this technique to change the input value from 10 to 1000, and it doesn’t work at all for non-integer input ranges. This feature was implemented because software keyboard input on phones and tablets didn’t work at all in the beginning, and still doesn’t on Android devices, so sliders provide a workaround. It has since found another use in
 
@@ -156,22 +156,22 @@ Prefer smooth animations slows down Snap!   ’sframe rate (time between u
 
 Codification support enables an experimental feature that can translate a Snap!project to a text-based (rather than block-based) programming language. The feature doesn’t know about any particular other language; instead, you can provide a translation for each primitive block using these special blocks:
 
-![image](SnapManual/Image_236.jpg)
+![image](images/Image_236.jpg)
 
 Using these primitive blocks, you can build a block library to translate into any programming language. Watch for such libraries to be added to our library collection (or contribute one). To see some examples, open the project “Codification” in the Examples project list. Edit the blocks map to Smalltalk, map to JavaScript, etc., to see examples of how to provide translations for blocks.
 
 Stage Resizing Buttons
 
-Still in the tool bar, but above the left edge of the stage, are two buttons that change the size of the stage. The first is the shrink/grow button. Normally it looks like this: ![image](SnapManual/Image_237.png)Clicking the button displays the stage at half- normal size horizontally and vertically (so it takes up ¼ of its usual area). When the stage is half size the button looks like this: ![image](SnapManual/Image_238.png)and clicking it returns the stage to normal size. The main reason you’d want a half size stage is during the development process, when you’re assembling scripts with wide input expressions and the normal scripting area isn’t wide enough to show the complete script. You’d typically then switch back to normal size to try out the project. The next presentation mode button normally looks like this: ![image](SnapManual/Image_239.png)Clicking the button makes the stage double size in both dimensions and eliminates most of the other user interface elements (the palette, the scripting area, the sprite corral, and most of the tool bar). When you open a shared project using a link someone has sent you, the project starts in presentation mode. While in presentation mode, the button looks like this: ![image](SnapManual/Image_240.png)Clicking it returns to normal (project development) mode.
+Still in the tool bar, but above the left edge of the stage, are two buttons that change the size of the stage. The first is the shrink/grow button. Normally it looks like this: ![image](images/Image_237.png)Clicking the button displays the stage at half- normal size horizontally and vertically (so it takes up ¼ of its usual area). When the stage is half size the button looks like this: ![image](images/Image_238.png)and clicking it returns the stage to normal size. The main reason you’d want a half size stage is during the development process, when you’re assembling scripts with wide input expressions and the normal scripting area isn’t wide enough to show the complete script. You’d typically then switch back to normal size to try out the project. The next presentation mode button normally looks like this: ![image](images/Image_239.png)Clicking the button makes the stage double size in both dimensions and eliminates most of the other user interface elements (the palette, the scripting area, the sprite corral, and most of the tool bar). When you open a shared project using a link someone has sent you, the project starts in presentation mode. While in presentation mode, the button looks like this: ![image](images/Image_240.png)Clicking it returns to normal (project development) mode.
 
 Project Control Buttons
 
 Above the right edge of the stage are three buttons that control the running of the project.
 
-Technically, the green flag ![image](SnapManual/Image_241.png)is no more a project control than anything else that can trigger a hat block: typing on the keyboard or clicking on a sprite. But it’s a convention that clicking the flag should start the action of the project from the beginning. It’s only a convention; some projects have no flag-controlled scripts at all, but respond to keyboard controls instead. Shift-clicking the button enters Turbo mode, and the button then looks like a lightning bolt: ![image](SnapManual/Image_242.png)Shift-clicking again turns Turbo mode off.
+Technically, the green flag ![image](images/Image_241.png)is no more a project control than anything else that can trigger a hat block: typing on the keyboard or clicking on a sprite. But it’s a convention that clicking the flag should start the action of the project from the beginning. It’s only a convention; some projects have no flag-controlled scripts at all, but respond to keyboard controls instead. Shift-clicking the button enters Turbo mode, and the button then looks like a lightning bolt: ![image](images/Image_242.png)Shift-clicking again turns Turbo mode off.
 
 ### Scripts can simulate clicking the green flag by broadcasting the special message shout go (two underscores in each of the three positions shown). {#scripts-can-simulate-clicking-the-green-flag-by-broadcasting-the-special-message-shout-go-two-underscores-in-each-of-the-three-positions-shown}
 
-The pause button ![image](SnapManual/Image_243.png)suspends running all scripts. If clicked while scripts are running, the button changes shape to become a play button: ![image](SnapManual/Image_244.png)Clicking it while in this form resumes the suspended scripts. There is also a pause block in the Control palette that can be inserted in a script to suspend all scripts; this provides the essence of a breakpoint debugging capability.
+The pause button ![image](images/Image_243.png)suspends running all scripts. If clicked while scripts are running, the button changes shape to become a play button: ![image](images/Image_244.png)Clicking it while in this form resumes the suspended scripts. There is also a pause block in the Control palette that can be inserted in a script to suspend all scripts; this provides the essence of a breakpoint debugging capability.
 
-The stop button ![image](SnapManual/Image_245.png)stops all scripts, like the stop all block. It does _not_ prevent a script from starting again in response to a click or keystroke; the user interface is always active.
+The stop button ![image](images/Image_245.png)stops all scripts, like the stop all block. It does _not_ prevent a script from starting again in response to a click or keystroke; the user interface is always active.

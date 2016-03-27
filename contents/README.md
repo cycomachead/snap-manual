@@ -170,15 +170,15 @@ To run Snap!, open a browser window and connect to either [http://snap.berkeley.
 
     Start Snap!. You should see the following arrangement of regions in the window:
 
-    ![image](SnapManual/Image_003.jpg)
+    ![image](images/Image_003.jpg)
 
     (The proportions of these areas may be different, depending on the size and shape of your browser window.) A Snap! program consists of one or more _scripts,_ each of which is made of _blocks._ Here’s a typical script:
 
-    ![image](SnapManual/Image_004.png)
+    ![image](images/Image_004.png)
 
     The five blocks that make up this script have three different colors, corresponding to three of the eight _palettes_ in which blocks can be found. The palette area at the left edge of the window shows one palette at a time, chosen with the eight buttons just above the palette area. In this script, the gold blocks are from the Control palette; the green block is from the Pen palette; and the blue blocks are from the Motion palette. A script is assembled by dragging blocks from a palette into the _scripting area_ in the middle part of the window. Blocks snap together (hence the name Snap! for the language) when you drag a block so that its indentation is near the tab of the one above it:
 
-    ![image](SnapManual/Image_005.jpg)
+    ![image](images/Image_005.jpg)
 
     The white horizontal line is a signal that if you let go of the green block it will snap into the tab of the gold one.
 
@@ -186,7 +186,7 @@ To run Snap!, open a browser window and connect to either [http://snap.berkeley.
 
     At the top of the script is a _hat_ block, which indicates when the script should be carried out. Hat block names typically start with the word “when”; in this example, the script should be run when the green flag near the right end of the Snap! tool bar is clicked. (The Snap! tool bar is part of the Snap! window, not the same as the browser’s or operating system’s menu bar.) A script isn’t required to have a hat block, but if not, then the script will be run only if the user clicks on the script itself. A script can’t have more than one hat block, and the hat block can be used only at the top of the script; its distinctive shape is meant to remind you of that.
 
-    The other blocks in this script are _command_ blocks. Each command block corresponds to an action that Snap! already knows how to carry out. For example, the block ![image](SnapManual/Image_006.png)tells the sprite (the arrowhead shape on the _stage_ at the right end of the window) to move ten steps (a step is a very small unit of distance) in the direction in which the arrowhead is pointing. We’ll see shortly that there can be more than one sprite, and that each sprite has its own scripts. Also, a sprite doesn’t have to look like an arrowhead, but can have any picture as
+    The other blocks in this script are _command_ blocks. Each command block corresponds to an action that Snap! already knows how to carry out. For example, the block ![image](images/Image_006.png)tells the sprite (the arrowhead shape on the _stage_ at the right end of the window) to move ten steps (a step is a very small unit of distance) in the direction in which the arrowhead is pointing. We’ll see shortly that there can be more than one sprite, and that each sprite has its own scripts. Also, a sprite doesn’t have to look like an arrowhead, but can have any picture as
 
     a _costume._ The shape of the move block is meant to remind you of a Lego™ brick; a script is a stack of blocks. (The word “block” denotes both the graphical shape on the screen and the procedure, the action, that the block carries out.)
 
@@ -194,4 +194,4 @@ To run Snap!, open a browser window and connect to either [http://snap.berkeley.
 
     Most command blocks have that brick shape, but some, like the repeat block in the sample script, are _C-shaped._ Most C-shaped blocks are found in the Control palette. The slot inside the C shape is a special kind of input slot that accepts a _script_ as the input. In the sample script, the repeat block has two inputs: the number 4 and the script
 
-    ![image](SnapManual/Image_007.png)
+    ![image](images/Image_007.png)
